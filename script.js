@@ -49,7 +49,7 @@ const scaleUp = function () {
 
 const scaleDown = function () {
   mainImg.style.transform = 'scale(1)';
-};₴
+};
 
 mainImg.addEventListener('mouseenter', scaleUp);
 mainImg.addEventListener('mouseleave', scaleDown);
